@@ -7,6 +7,12 @@ This code is 95% written by GPT-4. The only human input was the prompt.
 I decided to see if I could write a mobile app by only using GPT-4, in a framework I'm not 100% familiar with. The
 result is in this github project.
 
+# End result
+
+I ended up with a working prototype. The chat was working, the auth was working. 
+Then I decided to add chat history storage with firebase which is not working yet. Code is written but the app throws an error.
+I believe that it is possible to fix this problem by conversing with GPT-4, but I'm not going to spend more time on this.
+
 # About myself
 
 I'm a fullstack software engineer with over 15 years of experience. My tech stack spans from Python, Javascript, React,
@@ -34,5 +40,6 @@ Then followed by the prompts found in the `GPT-HISTORY.md` file.
 3. I have spent at least an hour debugging authorization with google issues and firebase, resolved by feeding errors
    back to GPT-4, and my previous experience with firebase/mobile apps.
 
+   
 
 
