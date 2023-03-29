@@ -21,7 +21,7 @@ I'm a fullstack software engineer with over 15 years of experience. My tech stac
 Go, little bit of Java and C#.
 Most of my career I've spent building data pipelines for startups like People.ai and big tech like Meta.
 
-# The Prompt
+# The prompt
 
 ```text
 {full copy-paste of https://platform.openai.com/docs/guides/chat}
