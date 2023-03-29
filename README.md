@@ -1,5 +1,7 @@
 # AI Mental Health Chatbot
 
+![Chat Screen](./screen.jpg)
+
 This code is 95% written by GPT-4. The only human input was the prompt.
 
 # The challenge

@@ -18,15 +18,18 @@ export type RootStackParamList = {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const App = () => {
+  const revenueCatApiKey = Config.REVENUECAT_API_KEY;
+
   useEffect(() => {
     Purchases.setDebugLogsEnabled(true);
 
-    if (Platform.OS === 'android') {
+    console.log(revenueCatApiKey);
+    if (Platform.OS === 'android' && revenueCatApiKey) {
       Purchases.configure({
-        apiKey: Config.REVENUECAT_API_KEY!,
+        apiKey: revenueCatApiKey,
       });
     }
-  }, []);
+  }, [revenueCatApiKey]);
 
   return (
     <AuthProvider>
